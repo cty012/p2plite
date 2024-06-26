@@ -1,0 +1,17 @@
+{
+  "name": "p2plite",
+  "version-string": "1.0.0",
+  "license": "MIT",
+  "dependencies": [
+    "glib",
+    "libnice"
+  ],
+  "features": {
+    "tests": {
+      "description": "Test suites built with Google Test",
+      "dependencies": [
+        "gtest"
+      ]
+    }
+  }
+}
