@@ -1,32 +1,22 @@
-# Prerequisites
-*.d
+# Editor
+.idea/
+.vs/
+.vscode/
+*.swp
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Clangd
+.cache/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Dependencies
+deps/
+vcpkg_installed/
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Build
+build/
+cmake-build-*/
+out/
+dist/
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Others
+.DS_Store
+docs/doxygen-output/
